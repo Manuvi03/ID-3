@@ -78,7 +78,7 @@ public class AlgoritmoIDE3 {
             return;
         }
 
-        n.atributo = mejorAtributo.getFirst();
+        n.atributo = mejorAtributo.get(0);
 
         for (int i = 1; i < mejorAtributo.size(); i++) {
             String valorAtributo = mejorAtributo.get(i);
